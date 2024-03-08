@@ -1,0 +1,22 @@
+@import url("/.where-the-magic-is/global.css");
+
+.headline {
+  font-family: "Allison", Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 3px 3px midnightblue;
+  font-size: 72px;
+}
+
+.flipcard {
+  transform: rotateY(180deg);
+}
+
+.card {
+  font-family: "Handlee";
+  font-size: 32px;
+}
+
+.title {
+  font-family: "Allison";
+  font-size: 72px;
+}
