@@ -16,6 +16,10 @@
   font-size: 32px;
 }
 
+.front {
+  border: 1rem solid white;
+}
+
 .title {
   font-family: "Allison";
   font-size: 72px;

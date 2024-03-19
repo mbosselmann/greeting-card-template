@@ -23,7 +23,6 @@
 
 body {
   height: 100vh;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,14 +33,9 @@ body {
   height: 100%;
   max-width: 500px;
   max-height: 790px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
   transition: all 0.5s linear;
   -webkit-transition: all 0.5s linear;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
+  transform-style: preserve-3d;
 }
 
 .card section {
@@ -54,7 +48,7 @@ body {
 }
 
 @media (max-width: 500px) {
-  .card section {
+  .card {
     max-height: 100vh;
   }
 }
@@ -63,9 +57,6 @@ body {
   position: relative;
   background-color: white;
   box-shadow: 2px 11px 26px 2px rgba(17, 17, 26, 0.12);
-  display: flex;
-  flex-direction: column;
-  border: 1rem solid white;
 }
 
 .back {
@@ -83,7 +74,6 @@ body {
   width: 100%;
   z-index: 2;
   text-align: center;
-  margin: 0;
 }
 
 p {
